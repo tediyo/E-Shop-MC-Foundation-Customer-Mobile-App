@@ -1,0 +1,125 @@
+import { MD3LightTheme as DefaultTheme } from 'react-native-paper';
+
+export const theme = {
+  ...DefaultTheme,
+  colors: {
+    ...DefaultTheme.colors,
+    primary: '#3B82F6',
+    primaryDark: '#1D4ED8',
+    secondary: '#8B5CF6',
+    secondaryDark: '#7C3AED',
+    success: '#10B981',
+    successDark: '#059669',
+    warning: '#F59E0B',
+    warningDark: '#D97706',
+    error: '#EF4444',
+    errorDark: '#DC2626',
+    info: '#06B6D4',
+    infoDark: '#0891B2',
+    background: '#F8FAFC',
+    surface: '#FFFFFF',
+    surfaceVariant: '#F1F5F9',
+    onSurface: '#1E293B',
+    onSurfaceVariant: '#64748B',
+    outline: '#E2E8F0',
+    outlineVariant: '#CBD5E1',
+    // Custom colors for gradients
+    gradientStart: '#3B82F6',
+    gradientEnd: '#8B5CF6',
+    gradientSuccessStart: '#10B981',
+    gradientSuccessEnd: '#06B6D4',
+    gradientWarningStart: '#F59E0B',
+    gradientWarningEnd: '#EF4444',
+  },
+  spacing: {
+    xs: 4,
+    sm: 8,
+    md: 16,
+    lg: 24,
+    xl: 32,
+    xxl: 48,
+  },
+  borderRadius: {
+    sm: 8,
+    md: 12,
+    lg: 16,
+    xl: 24,
+    xxl: 32,
+    round: 50,
+  },
+  typography: {
+    h1: {
+      fontSize: 32,
+      fontWeight: 'bold',
+      lineHeight: 40,
+    },
+    h2: {
+      fontSize: 28,
+      fontWeight: 'bold',
+      lineHeight: 36,
+    },
+    h3: {
+      fontSize: 24,
+      fontWeight: '600',
+      lineHeight: 32,
+    },
+    h4: {
+      fontSize: 20,
+      fontWeight: '600',
+      lineHeight: 28,
+    },
+    body1: {
+      fontSize: 16,
+      fontWeight: 'normal',
+      lineHeight: 24,
+    },
+    body2: {
+      fontSize: 14,
+      fontWeight: 'normal',
+      lineHeight: 20,
+    },
+    caption: {
+      fontSize: 12,
+      fontWeight: 'normal',
+      lineHeight: 16,
+    },
+    button: {
+      fontSize: 16,
+      fontWeight: '600',
+      lineHeight: 24,
+      textTransform: 'uppercase',
+    },
+  },
+  shadows: {
+    small: {
+      shadowColor: '#000',
+      shadowOffset: {
+        width: 0,
+        height: 2,
+      },
+      shadowOpacity: 0.1,
+      shadowRadius: 3.84,
+      elevation: 2,
+    },
+    medium: {
+      shadowColor: '#000',
+      shadowOffset: {
+        width: 0,
+        height: 4,
+      },
+      shadowOpacity: 0.15,
+      shadowRadius: 6.27,
+      elevation: 4,
+    },
+    large: {
+      shadowColor: '#000',
+      shadowOffset: {
+        width: 0,
+        height: 8,
+      },
+      shadowOpacity: 0.2,
+      shadowRadius: 10.32,
+      elevation: 8,
+    },
+  },
+};
